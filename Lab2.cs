@@ -36,7 +36,7 @@
 }
 */
 
-// Read month number and display corresponding month name.
+// Read month number and display corresponding month name using switch case.
 /*class Program {
     static void Main() {
         
