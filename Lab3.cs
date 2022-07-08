@@ -1,5 +1,5 @@
 ﻿
-// Read n number of values in an array andd display in reverse order
+// Read n number of values in an array and display in reverse order
 
 /*class reverseArray {
     static void Main() {
@@ -44,49 +44,9 @@
 
 // Read a string and print the total number of vowels in the string
 
-/*class totalVowels {
+/*using System;
 
-    static void Main() {
-        string? word;
-        int countVowel = 0;
-
-        Console.WriteLine("Enter a word: ");
-        word = Console.ReadLine();
-        char[] letter = new char[word.Length];
-        letter = word.ToCharArray();
-        foreach(char ch in letter) {
-
-            switch(ch) {
-                case 'a':
-                countVowel++;
-                break;
-    
-                case 'e':
-                countVowel++;
-                break;
-    
-                case 'i':
-                countVowel++;
-                break;
-    
-                case 'o':
-                countVowel++;
-                break;
-    
-                case 'u':
-                countVowel++;
-                break;
-    
-            }
-        }
-
-        Console.WriteLine("Total numbers of vowel letters in given word = {0}",countVowel);
-    }
-}
-*/
-using System;
-
-namespace lab
+namespace labWork
 {
     public class countVowel
     {
@@ -107,13 +67,29 @@ namespace lab
 
             for (int i = 0; i < givenString.Length; i++)
             {
-                if (vowels.Contains(givenString[i]+""))
+                if (vowels.Contains(givenString[i]))
                 {
                     totalVowels++;
                 }
             }
-
+            
             Console.WriteLine("Total vowels: " + totalVowels);
         }
     }
 }
+*/
+
+// Reverse given string using array
+
+using System;
+namespace labWork
+{
+    public class reverseString
+    {
+        static void Main()
+        {
+            
+        }
+    }
+}
+
