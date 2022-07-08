@@ -101,7 +101,6 @@ namespace lab
 
             if(string.IsNullOrEmpty(givenString) || string.IsNullOrWhiteSpace(givenString))
             {
-
                 Console.WriteLine("Sorry, the word is empty. Please enter again.");
                 return;
             }
