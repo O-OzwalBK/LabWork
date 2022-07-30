@@ -52,7 +52,7 @@ namespace labWork
     {
         public static void Main(string[] args)
         {
-            String givenString;
+            String? givenString;
             String vowels = "aeiouAEIOU";
             int totalVowels = 0;
 
@@ -81,15 +81,40 @@ namespace labWork
 
 // Reverse given string using array
 
-using System;
+/*using System;
 namespace labWork
 {
-    public class reverseString
+    static class stringManipulation
+    {
+        public static string ReverseString(string str)
+        {
+            
+            char[] stringArray = str.ToCharArray();
+            Array.Reverse(stringArray); 
+            return new string(stringArray);
+        }
+    }
+    public class stringWork
     {
         static void Main()
         {
+            string? userString = "";
+            Console.WriteLine("Enter a string: ");
+            userString = Console.ReadLine();
+
+            if(string.IsNullOrEmpty(userString))
+            {
+                Console.WriteLine("Empty string");
+                return;
+            }
+            Console.WriteLine("Original string:");
+            Console.WriteLine(userString);
+
             
+            Console.WriteLine("Reversed string:");
+            Console.WriteLine(stringManipulation.ReverseString(userString));
+
         }
     }
 }
-
+*/
